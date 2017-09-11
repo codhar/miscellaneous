@@ -11,7 +11,6 @@ public class TryException {
 		try {
 			compute(i,j);
 		} catch (Exception e) {
-			System.out.println("In catch block");
 			e.printStackTrace();
 		}
 	}
